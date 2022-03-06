@@ -1,0 +1,5 @@
+C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/CMakeFiles/hw-38-5-2_html_editor.dir
+C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/CMakeFiles/hw-38-5-2_html_editor_autogen_timestamp_deps.dir
+C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/CMakeFiles/hw-38-5-2_html_editor_autogen.dir

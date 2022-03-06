@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "hw-38-5-2_html_editor_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "hw-38-5-2_html_editor_autogen::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "hw-38-5-2_html_editor_autogen",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Release/CMakeFiles/hw-38-5-2_html_editor_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Release/CMakeFiles/hw-38-5-2_html_editor_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Release/hw-38-5-2_html_editor_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

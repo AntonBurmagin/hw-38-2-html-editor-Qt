@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hw-38-5-2_html_editor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hw-38-5-2_html_editor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw-38-5-2_html_editor-Debug-5ba251e96e3e2348ca85.json",
+					"name" : "hw-38-5-2_html_editor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw-38-5-2_html_editor_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw-38-5-2_html_editor_autogen-Debug-d41a32608d81e1fa4152.json",
+					"name" : "hw-38-5-2_html_editor_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw-38-5-2_html_editor_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw-38-5-2_html_editor_autogen_timestamp_deps-Debug-8f0660dd27b88b8003a3.json",
+					"name" : "hw-38-5-2_html_editor_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug",
+		"source" : "C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/hw-38-5-2_html_editor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

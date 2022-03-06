@@ -1,0 +1,15 @@
+# ninja log v5
+5	2531	668289353	hw-38-5-2_html_editor_autogen/timestamp	ae944b87840a9fa1
+5	2531	668289353	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	ae944b87840a9fa1
+5	2531	668289353	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Release/hw-38-5-2_html_editor_autogen/timestamp	ae944b87840a9fa1
+5	2531	668289353	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Release/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	ae944b87840a9fa1
+2532	8559	668289359	CMakeFiles/hw-38-5-2_html_editor.dir/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp.obj	dfb0e0373046554b
+2544	8870	668289359	CMakeFiles/hw-38-5-2_html_editor.dir/mainwindow.cpp.obj	f8e528cc1f0c09fd
+2552	11036	668289362	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	b1dd133663ff4c42
+11038	17893	668289368	hw-38-5-2_html_editor.exe	79b4907cca58c5fd
+196	7649	668289408	hw-38-5-2_html_editor_autogen/timestamp	ae944b87840a9fa1
+196	7649	668289408	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	ae944b87840a9fa1
+196	7649	668289408	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Release/hw-38-5-2_html_editor_autogen/timestamp	ae944b87840a9fa1
+196	7649	668289408	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Release/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	ae944b87840a9fa1
+7679	14751	668289416	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	b1dd133663ff4c42
+14752	16271	668289417	hw-38-5-2_html_editor.exe	79b4907cca58c5fd
