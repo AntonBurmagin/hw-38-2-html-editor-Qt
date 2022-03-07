@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 6.0.0, 2022-03-06T22:06:16. -->
+<!-- Written by QtCreator 6.0.0, 2022-03-07T14:53:03. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -306,6 +306,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>
