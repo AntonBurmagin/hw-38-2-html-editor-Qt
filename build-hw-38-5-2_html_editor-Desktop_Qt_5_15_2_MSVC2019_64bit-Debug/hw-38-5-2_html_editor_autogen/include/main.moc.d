@@ -1,4 +1,5 @@
 C:/Users/burma/Desktop/C++/HW/HW-38\ advanced\ Qt/hw-38.5.2\ html\ editor\ Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/include/main.moc: C:/Users/burma/Desktop/C++/HW/HW-38\ advanced\ Qt/hw-38.5.2\ html\ editor\ Qt/hw-38-5-2_html_editor/main.cpp \
+  C:/Qt/5.15.2/msvc2019_64/include/QtCore/QDir \
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/QFlags \
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/QMetaType \
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/QObject \
@@ -25,9 +26,11 @@ C:/Users/burma/Desktop/C++/HW/HW-38\ advanced\ Qt/hw-38.5.2\ html\ editor\ Qt/bu
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/qdatastream.h \
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/qdatetime.h \
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/qdebug.h \
+  C:/Qt/5.15.2/msvc2019_64/include/QtCore/qdir.h \
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/qeventloop.h \
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/qfile.h \
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/qfiledevice.h \
+  C:/Qt/5.15.2/msvc2019_64/include/QtCore/qfileinfo.h \
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/qflags.h \
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/qglobal.h \
   C:/Qt/5.15.2/msvc2019_64/include/QtCore/qglobalstatic.h \

@@ -10,13 +10,15 @@
 #include <iostream>
 #include <fstream>
 
+#include <QDir>
+
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     QWidget window;
     QHBoxLayout placement(&window);
     auto view = new QWebEngineView;
-    view->load(QUrl::fromLocalFile("C:\\Users\\burma\\Desktop\\C++\\HW\\HW-38 advanced Qt\\hw-38.5.2 html editor Qt\\hw-38-5-2_html_editor\\test.html"));
+    view->load(QUrl("http://mycpp.ru/cpp/scpp/cppd_virtual.htm"));
     auto editor = new QPlainTextEdit;
     bool firstLoad = true;
     view->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
@@ -35,13 +37,14 @@ int main(int argc, char *argv[])
     std::ofstream file;
 
     QObject::connect(editor, &QPlainTextEdit::textChanged, [view, editor, &file, &firstLoad]() {
-        if (!firstLoad){
-            file.open("C:\\Users\\burma\\Desktop\\C++\\HW\\HW-38 advanced Qt\\hw-38.5.2 html editor Qt\\hw-38-5-2_html_editor\\test.html");
-            file << editor->toPlainText().toStdString();
-            file.close();
-            view->reload();
+        file.open("..\\google.html");
+        file << editor->toPlainText().toStdString();
+        file.close();
+        if(firstLoad) {
+        view->load(QUrl::fromLocalFile("C:\\Users\\burma\\Desktop\\C++\\HW\\HW-38 advanced Qt\\hw-38.5.2 html editor Qt\\google.html"));
+        firstLoad=false;
         } else {
-            firstLoad=false;
+            view->reload();
         }
     });
 

@@ -90,6 +90,7 @@ C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/hw-38-5
 C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/hw-38-5-2_html_editor/main.cpp
  mid:main.moc
  mdp:C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/hw-38-5-2_html_editor/main.cpp
+ mdp:C:/Qt/5.15.2/msvc2019_64/include/QtCore/QDir
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtCore/QFlags
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtCore/QMetaType
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtCore/QObject
@@ -116,9 +117,11 @@ C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/hw-38-5
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtCore/qdatastream.h
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtCore/qdatetime.h
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtCore/qdebug.h
+ mdp:C:/Qt/5.15.2/msvc2019_64/include/QtCore/qdir.h
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtCore/qeventloop.h
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtCore/qfile.h
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtCore/qfiledevice.h
+ mdp:C:/Qt/5.15.2/msvc2019_64/include/QtCore/qfileinfo.h
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtCore/qflags.h
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtCore/qglobal.h
  mdp:C:/Qt/5.15.2/msvc2019_64/include/QtCore/qglobalstatic.h

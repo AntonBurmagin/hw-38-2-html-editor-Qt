@@ -1,0 +1,173 @@
+<html><head>
+	<title>Справочник C/C++ - virtual</title>
+	<link rel="stylesheet" type="text/css" href="viewer.css">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+
+<meta http-equiv="origin-trial" content="AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A8FHS1NmdCwGqD9DwOicnHHY+y27kdWfxKa0YHSGDfv0CSpDKRHTQdQmZVPDUdaFWUsxdgVxlwAd6o+dhJykPA0AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A8zdXi6dr1hwXEUjQrYiyYQGlU3557y5QWDnN0Lwgj9ePt66XMEvNkVWOEOWPd7TP9sBQ25X0Q15Lr1Nn4oGFQkAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A4/Htern2udN9w3yJK9QgWQxQFruxOXsXL7cW60DyCl0EZFGCSme/J33Q/WzF7bBkVvhEWDlcBiUyZaim5CpFQwAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A8FHS1NmdCwGqD9DwOicnHHY+y27kdWfxKa0YHSGDfv0CSpDKRHTQdQmZVPDUdaFWUsxdgVxlwAd6o+dhJykPA0AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A8zdXi6dr1hwXEUjQrYiyYQGlU3557y5QWDnN0Lwgj9ePt66XMEvNkVWOEOWPd7TP9sBQ25X0Q15Lr1Nn4oGFQkAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A4/Htern2udN9w3yJK9QgWQxQFruxOXsXL7cW60DyCl0EZFGCSme/J33Q/WzF7bBkVvhEWDlcBiUyZaim5CpFQwAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><script src="https://partner.googleadservices.com/gampad/cookie.js?domain=mycpp.ru&amp;callback=_gfp_s_&amp;client=ca-pub-1678383081783558&amp;cookie=ID%3D56bf4044356b2747-2210519555cd0003%3AT%3D1646652321%3ART%3D1646652321%3AS%3DALNI_MbPQs7vGGtgLWBe7oKEqGMWp87htg"></script><script type="text/javascript" async="" src="https://mc.yandex.ru/metrika/watch.js"></script><link rel="preload" href="https://adservice.google.ru/adsid/integrator.js?domain=mycpp.ru" as="script"><script type="text/javascript" src="https://adservice.google.ru/adsid/integrator.js?domain=mycpp.ru"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=mycpp.ru" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=mycpp.ru"></script><link rel="preload" href="https://adservice.google.ru/adsid/integrator.js?domain=mycpp.ru" as="script"><script type="text/javascript" src="https://adservice.google.ru/adsid/integrator.js?domain=mycpp.ru"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=mycpp.ru" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=mycpp.ru"></script><link rel="preload" href="https://adservice.google.ru/adsid/integrator.js?domain=mycpp.ru" as="script"><script type="text/javascript" src="https://adservice.google.ru/adsid/integrator.js?domain=mycpp.ru"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=mycpp.ru" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=mycpp.ru"></script><script type="text/javascript" charset="utf-8" async="" src="https://w.uptolike.com/widgets/v1/extra.js?rnd=0.5448943161945743"></script></head>
+
+<body>
+<table align="center"><tbody><tr><td>
+<script type="text/javascript" async="" src="http://mc.yandex.ru/metrika/watch.js"></script><script type="text/javascript" async="" src="https://www.acint.net/aci.js"></script><script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202202280301/show_ads_impl_fy2019.js?bust=31065464" id="google_shimpl"></script><script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- top728 -->
+<ins class="adsbygoogle" style="display: inline-block; width: 641px; height: 90px;" data-ad-client="ca-pub-1678383081783558" data-ad-slot="1382111826" data-adsbygoogle-status="done" data-ad-status="unfilled"><ins id="aswift_0_expand" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 90px; width: 641px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;"><ins id="aswift_0_anchor" style="border: none; height: 90px; width: 641px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:641px;height:90px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="641" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1678383081783558&amp;output=html&amp;h=90&amp;twa=1&amp;slotname=1382111826&amp;adk=1413992499&amp;adf=2552221730&amp;pi=t.ma~as.1382111826&amp;w=641&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1646653816&amp;psa=1&amp;format=641x90&amp;url=http%3A%2F%2Fmycpp.ru%2Fcpp%2Fscpp%2Fcppd_virtual.htm&amp;flash=0&amp;fwr=0&amp;rh=90&amp;rw=641&amp;wgl=1&amp;dt=1646653810487&amp;bpp=684&amp;bdt=3923&amp;idt=5250&amp;shv=r20220302&amp;mjsv=m202202280301&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D56bf4044356b2747-2210519555cd0003%3AT%3D1646652321%3ART%3D1646652321%3AS%3DALNI_MbPQs7vGGtgLWBe7oKEqGMWp87htg&amp;correlator=2725927059790&amp;frm=20&amp;pv=2&amp;ga_vid=1333617973.1646653817&amp;ga_sid=1646653817&amp;ga_hid=187343822&amp;ga_fc=0&amp;u_tz=180&amp;u_his=1&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=32&amp;u_sd=1&amp;adx=13&amp;ady=13&amp;biw=652&amp;bih=710&amp;scr_x=0&amp;scr_y=0&amp;eid=42531397%2C44750774%2C31065369%2C31065464&amp;oid=2&amp;pvsid=3079170598690002&amp;pem=664&amp;tmod=506309571&amp;uas=0&amp;nvt=1&amp;eae=0&amp;fc=896&amp;brdim=7%2C0%2C7%2C0%2C1366%2C0%2C1368%2C781%2C669%2C727&amp;vis=1&amp;rsz=%7C%7CEe%7C&amp;abl=CS&amp;pfx=0&amp;fu=1024&amp;bc=23&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;xpc=1vBVMLbxDY&amp;p=http%3A//mycpp.ru&amp;dtd=7536" data-google-container-id="a!1" data-load-complete="true" data-google-query-id="CJi-q7_3s_YCFSNJkQUdpccMVQ"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</td></tr></tbody></table>
+<script type="text/javascript" src="/styles/shCore.js"></script>
+<script type="text/javascript" src="/styles/shBrushCpp.js"></script>
+<link href="/styles/shCore.css" rel="stylesheet" type="text/css">
+<link href="/styles/shThemeDefault.css" rel="stylesheet" type="text/css">
+<table border="0" align="center" width="750" style="height: auto !important;">
+<tbody><tr style="height: auto !important;">
+<td style="height: auto !important;">
+<table border="0" width="100%">
+  <tbody><tr>
+<td>
+</td>
+    <td bgcolor="Green" align="center" width="100%"> <font family="Arial" color="Yellow"><b>Справочник по C/C++</b></font> </td>
+</tr>
+</tbody></table>
+
+<div class="inscription">
+Виртуальные функции
+</div>
+<br>
+
+<div class="descr">
+<p>Спецификатор <font class="code">virtual</font> создаёт виртуальную функцию. Виртуальная функция — это член базового класса, который может быть переопределён производным классом. Если функция не переопределяется производным классом, используется определение базового класса.</p>
+<p><i>Чистая виртуальная функция</i> — предоставляет собой функцию-член, которая не имеет определения. Это значит, что чистая виртуальная функция должна быть переопределена в производном классе. Прототип чистой виртуальной функции записывается следующим образом. 
+</p><pre id="pre0">virtual <i>тип_возврата имя_функции</i>(<i>список_параметров</i>) = 0;
+</pre>Элемент "<font class="code">= 0</font>" сообщает компилятору, что эта виртуальная функция не имеет определения, связанного с базовым классом.
+<p></p>
+<p>Динамический полиморфизм достигается в том случае, когда к виртуальным функциям можно получить доступ через указатель на базовый класс. При реализации такой возможности именно тип адресуемого объекта определяет, какая версия виртуальной функции будет вызвана.</p>
+<p>При вызове метода с использованием указателя на базовый класс действуют следующие правила: 
+</p><ul>
+<li>для виртуального метода вызывается метод, соответствующий типу объекта, на который указывает указатель;</li>
+<li>для невиртуального метода вызывается метод, соответствующий типу самого указателя.</li></ul>
+<p></p>
+<p>В результате при создании указателя базового класса, который указывают на объект производного класса будет вызываться метод производного класса. Например. 
+</p><pre id="pre1">class Base
+{
+public:
+	virtual void VM();
+	void M();
+};
+class Derived: public Base
+{
+public:
+	void VM();
+	void M();
+};
+
+Derived D;	//объект производного класса Derived;
+Derived *pD = &amp;D;	//указатель на объект D классы Derived
+Base *pB = &amp;D;		//указатель на объект D классы Base
+
+pB-&gt;VM();	//вызов метода VM класса Derived
+pD-&gt;VM();	//вызов метода VM класса Derived
+pB-&gt;M();	//вызов метода M класса Base
+pD-&gt;M();	//вызов метода M класса Derived
+
+/*если бы ключевое слово virtual не стояло в классе B,
+ то вызовы производились бы следующим образом*/
+pB-&gt;VM();	//вызов метода VM класса B
+pD-&gt;VM();	//вызов метода VM класса Derived
+pB-&gt;M();	//вызов метода M класса Base
+pD-&gt;M();	//вызов метода M класса Derived
+</pre>Итак, было показано, что виртуальные методы можно использовать для возможности использования методов созданных в производных классах. 
+<p></p>
+</div>
+<br>
+
+<div class="google-auto-placed" style="width: 100%; height: auto; clear: both; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-1678383081783558" data-adsbygoogle-status="done" style="display: block; margin: 10px auto; background-color: transparent; height: 0px;" data-ad-status="unfilled"><ins id="aswift_3_expand" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: auto !important; width: 744px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;"><ins id="aswift_3_anchor" style="border: none; height: 0px; width: 744px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block; overflow: hidden; opacity: 0;"><iframe id="aswift_3" name="aswift_3" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 744px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="744" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1678383081783558&amp;output=html&amp;h=280&amp;adk=2357697768&amp;adf=3376236689&amp;pi=t.aa~a.2837935719~rp.1&amp;w=744&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1646653836&amp;rafmt=1&amp;to=qs&amp;pwprc=7956172639&amp;psa=1&amp;format=744x280&amp;url=http%3A%2F%2Fmycpp.ru%2Fcpp%2Fscpp%2Fcppd_virtual.htm&amp;flash=0&amp;fwr=0&amp;pra=3&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;fa=40&amp;dt=1646653835520&amp;bpp=83&amp;bdt=28955&amp;idt=-M&amp;shv=r20220302&amp;mjsv=m202202280301&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D56bf4044356b2747-2210519555cd0003%3AT%3D1646652321%3ART%3D1646652321%3AS%3DALNI_MbPQs7vGGtgLWBe7oKEqGMWp87htg&amp;prev_fmts=641x90%2C641x90%2C0x0&amp;nras=2&amp;correlator=2725927059790&amp;frm=20&amp;pv=1&amp;ga_vid=1333617973.1646653817&amp;ga_sid=1646653817&amp;ga_hid=187343822&amp;ga_fc=0&amp;u_tz=180&amp;u_his=1&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=32&amp;u_sd=1&amp;adx=15&amp;ady=1029&amp;biw=652&amp;bih=710&amp;scr_x=0&amp;scr_y=0&amp;eid=42531397%2C44750774%2C31065369%2C31065464&amp;oid=2&amp;pvsid=3079170598690002&amp;pem=664&amp;tmod=506309571&amp;uas=0&amp;nvt=1&amp;eae=0&amp;fc=896&amp;brdim=7%2C0%2C7%2C0%2C1366%2C0%2C1368%2C781%2C669%2C727&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=1152&amp;bc=23&amp;ifi=4&amp;uci=a!4&amp;btvi=2&amp;fsb=1&amp;xpc=JRH2QkdC7D&amp;p=http%3A//mycpp.ru&amp;dtd=799" data-google-container-id="a!4" data-load-complete="true" data-google-query-id="CILw9cf3s_YCFdSGsgodOpUBsA"></iframe></ins></ins></ins></div><div class="label">
+Смотрите также
+</div><div class="google-auto-placed" style="width: 100%; height: auto; clear: both; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-1678383081783558" data-adsbygoogle-status="done" style="display: block; margin: 10px auto; background-color: transparent; height: 0px;" data-ad-status="unfilled"><ins id="aswift_4_expand" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: auto !important; width: 748px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;"><ins id="aswift_4_anchor" style="border: none; height: 0px; width: 748px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block; overflow: hidden; opacity: 0;"><iframe id="aswift_4" name="aswift_4" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 748px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="748" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1678383081783558&amp;output=html&amp;h=90&amp;adk=903717512&amp;adf=1854804846&amp;pi=t.aa~a.2837935719~rp.4&amp;w=748&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1646653836&amp;rafmt=1&amp;to=qs&amp;pwprc=7956172639&amp;psa=1&amp;format=748x90&amp;url=http%3A%2F%2Fmycpp.ru%2Fcpp%2Fscpp%2Fcppd_virtual.htm&amp;flash=0&amp;fwr=0&amp;pra=3&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;fa=40&amp;dt=1646653835520&amp;bpp=60&amp;bdt=28956&amp;idt=65&amp;shv=r20220302&amp;mjsv=m202202280301&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D56bf4044356b2747-2210519555cd0003%3AT%3D1646652321%3ART%3D1646652321%3AS%3DALNI_MbPQs7vGGtgLWBe7oKEqGMWp87htg&amp;prev_fmts=641x90%2C641x90%2C0x0%2C744x280&amp;nras=3&amp;correlator=2725927059790&amp;frm=20&amp;pv=1&amp;ga_vid=1333617973.1646653817&amp;ga_sid=1646653817&amp;ga_hid=187343822&amp;ga_fc=0&amp;u_tz=180&amp;u_his=1&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=32&amp;u_sd=1&amp;adx=13&amp;ady=1351&amp;biw=652&amp;bih=710&amp;scr_x=0&amp;scr_y=0&amp;eid=42531397%2C44750774%2C31065369%2C31065464&amp;oid=2&amp;pvsid=3079170598690002&amp;pem=664&amp;tmod=506309571&amp;uas=0&amp;nvt=1&amp;eae=0&amp;fc=896&amp;brdim=7%2C0%2C7%2C0%2C1366%2C0%2C1368%2C781%2C669%2C727&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=1152&amp;bc=23&amp;ifi=5&amp;uci=a!5&amp;btvi=3&amp;fsb=1&amp;xpc=o4kCMJSq2T&amp;p=http%3A//mycpp.ru&amp;dtd=1140" data-google-container-id="a!5" data-load-complete="true" data-google-query-id="CP6Njcj3s_YCFQyIsgodf4AJwQ"></iframe></ins></ins></ins></div>
+<br>
+
+<div class="also">
+<a href="cppd_inheritance.htm">Виртуальные базовые классы</a><br>
+<a href="cppd_class.htm">Виртуальные деструкторы</a>
+</div>
+<br>
+
+</td>
+</tr>
+</tbody></table>
+<center>
+<script type="text/javascript">
+     SyntaxHighlighter.all()
+</script>
+<br>
+<table style="border:1px solid #666666;" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td>
+
+</td>
+</tr>
+</tbody></table>
+
+<br>
+<table align="center"><tbody><tr><td>
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- top728 -->
+<ins class="adsbygoogle" style="display: inline-block; width: 641px; height: 0px;" data-ad-client="ca-pub-1678383081783558" data-ad-slot="1382111826" data-adsbygoogle-status="done" data-ad-status="unfilled"><ins id="aswift_1_expand" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 0px; width: 641px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;"><ins id="aswift_1_anchor" style="border: none; height: 0px; width: 641px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block; overflow: hidden; opacity: 0;"><iframe id="aswift_1" name="aswift_1" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 641px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="641" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1678383081783558&amp;output=html&amp;h=90&amp;twa=1&amp;slotname=1382111826&amp;adk=3393989291&amp;adf=4040433847&amp;pi=t.ma~as.1382111826&amp;w=641&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1646653819&amp;psa=1&amp;format=641x90&amp;url=http%3A%2F%2Fmycpp.ru%2Fcpp%2Fscpp%2Fcppd_virtual.htm&amp;flash=0&amp;fwr=0&amp;rh=90&amp;rw=641&amp;wgl=1&amp;dt=1646653811181&amp;bpp=145&amp;bdt=4617&amp;idt=7744&amp;shv=r20220302&amp;mjsv=m202202280301&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D56bf4044356b2747-2210519555cd0003%3AT%3D1646652321%3ART%3D1646652321%3AS%3DALNI_MbPQs7vGGtgLWBe7oKEqGMWp87htg&amp;prev_fmts=641x90&amp;correlator=2725927059790&amp;frm=20&amp;pv=1&amp;ga_vid=1333617973.1646653817&amp;ga_sid=1646653817&amp;ga_hid=187343822&amp;ga_fc=0&amp;u_tz=180&amp;u_his=1&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=32&amp;u_sd=1&amp;adx=13&amp;ady=1139&amp;biw=652&amp;bih=710&amp;scr_x=0&amp;scr_y=0&amp;eid=42531397%2C44750774%2C31065369%2C31065464&amp;oid=2&amp;pvsid=3079170598690002&amp;pem=664&amp;tmod=506309571&amp;uas=0&amp;nvt=1&amp;eae=0&amp;fc=896&amp;brdim=7%2C0%2C7%2C0%2C1366%2C0%2C1368%2C781%2C669%2C727&amp;vis=1&amp;rsz=%7C%7CEebr%7C&amp;abl=CS&amp;pfx=0&amp;fu=1024&amp;bc=23&amp;ifi=2&amp;uci=a!2&amp;btvi=1&amp;fsb=1&amp;xpc=WRbGAHdpXt&amp;p=http%3A//mycpp.ru&amp;dtd=8297" data-google-container-id="a!2" data-load-complete="true" data-google-query-id="CKWWqMD3s_YCFZeGsgodLpQLDQ"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</td></tr></tbody></table>
+<hr width="730">
+<table align="center" width="700" border="0"><tbody><tr><td><div style="background-color:#eeeeee">2020-06-19 17:38:08 <a href="mailto:ilchel1992@gmail.com"><strong>Chchch</strong></a></div> <br>Ошибка в листинге? Одинаковые примеры вызовов. <br><br>
+<center></center><a name="mess"></a>
+
+<br><br>
+<hr>
+Оставить комментарий:
+<form action="/cpp/scpp/cppd_virtual.htm" method="post">
+<table border="0">
+<tbody><tr><td align="right">Ваше Имя:</td> <td align="left"><input name="name" value=""></td></tr>
+<tr><td align="right">Email: </td> <td align="left"><input name="email" value=""></td></tr>
+<tr><td align="right">Антибот: <font color="red">*</font></td> <td style="vertical-align:middle; " align="left"><input onfocus="javascript:document.getElementById('im').src='/comments/img.php';" style="height: 22; vertical-align:middle;" align="middle" name="captcha" size="4" value="">&nbsp;<img id="im" style="vertical-align:middle; " src="/images/c.png"></td></tr>
+<tr><td align="right">Ваш комментарий:</td> <td align="left">&nbsp;</td></tr>
+<tr><td colspan="2" align="right"> <textarea rows="8" cols="36" name="message"></textarea></td></tr>
+<tr><td align="right"></td> <td align="right"><input type="submit" value="Отправить"></td></tr>
+</tbody></table>
+</form>
+</td></tr></tbody></table>
+
+<table style="border:1px solid #666666;" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td>
+
+
+<!-- SRTB JS -->
+<script async="async" src="//cdn-rtb.sape.ru/rtb-b/js/881/2/22881.js" type="text/javascript">
+</script>
+<!-- SRTB END -->
+</td>
+</tr>
+
+<tr>
+<td>
+
+
+</td>
+</tr>
+
+</tbody></table>
+
+</center>
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t26.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: РїРѕРєР°Р·Р°РЅРѕ С‡РёСЃР»Рѕ РїРѕСЃРµС‚РёС‚РµР»РµР№ Р·Р°"+
+" СЃРµРіРѕРґРЅСЏ' "+
+"border='0' width='88' height='15'><\/a>")
+//--></script><a href="//www.liveinternet.ru/click" target="_blank"><img src="//counter.yadro.ru/hit?t26.1;r;s1366*768*32;uhttp%3A//mycpp.ru/cpp/scpp/cppd_virtual.htm;0.02721364749451105" alt="" title="LiveInternet: РїРѕРєР°Р·Р°РЅРѕ С‡РёСЃР»Рѕ РїРѕСЃРµС‚РёС‚РµР»РµР№ Р·Р° СЃРµРіРѕРґРЅСЏ" border="0" width="88" height="15"></a><!--/LiveInternet-->
+<script async="async" src="https://w.uptolike.com/widgets/v1/zp.js?pid=44658"></script>
+
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><ins id="aswift_2_expand" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;"><ins id="aswift_2_anchor" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block;"><iframe id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1678383081783558&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;lmt=1646653821&amp;plat=3%3A32%2C4%3A32%2C9%3A32768%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1048576%2C32%3A32&amp;format=0x0&amp;url=http%3A%2F%2Fmycpp.ru%2Fcpp%2Fscpp%2Fcppd_virtual.htm&amp;ea=0&amp;flash=0&amp;pra=7&amp;wgl=1&amp;dt=1646653812200&amp;bpp=369&amp;bdt=5636&amp;idt=8756&amp;shv=r20220302&amp;mjsv=m202202280301&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D56bf4044356b2747-2210519555cd0003%3AT%3D1646652321%3ART%3D1646652321%3AS%3DALNI_MbPQs7vGGtgLWBe7oKEqGMWp87htg&amp;prev_fmts=641x90%2C641x90&amp;nras=1&amp;correlator=2725927059790&amp;frm=20&amp;pv=1&amp;ga_vid=1333617973.1646653817&amp;ga_sid=1646653817&amp;ga_hid=187343822&amp;ga_fc=0&amp;u_tz=180&amp;u_his=1&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=32&amp;u_sd=1&amp;adx=-12245933&amp;ady=-12245933&amp;biw=652&amp;bih=710&amp;scr_x=0&amp;scr_y=0&amp;eid=42531397%2C44750774%2C31065369%2C31065464&amp;oid=2&amp;pvsid=3079170598690002&amp;pem=664&amp;tmod=506309571&amp;uas=0&amp;nvt=1&amp;eae=2&amp;fc=896&amp;brdim=7%2C0%2C7%2C0%2C1366%2C0%2C1368%2C781%2C669%2C727&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=33792&amp;bc=23&amp;ifi=3&amp;uci=a!3&amp;fsb=1&amp;dtd=9378" data-google-container-id="a!3" data-load-complete="true"></iframe></ins></ins></ins><script src="https://ssp-rtb.sape.ru/data/?callback=sapeRTB_6225f1764_2779734&amp;srtbid=22881&amp;scids=161101466&amp;sx=652&amp;sy=1656&amp;ref=&amp;u=http%3A%2F%2Fmycpp.ru%2Fcpp%2Fscpp%2Fcppd_virtual.htm&amp;allimps=1&amp;fl=0&amp;v=3&amp;tz=%2B03%3A00" data-srtb-id="16" data-srtb-type="partnerId"></script><iframe src="//www.acint.net/mc/?dp=14" style="width:1px;height:1px;display:none;" frameborder="0" width="0" height="0"></iframe><div id="SRTB_61499_POPUP" style="width: 240px; height: 400px; position: fixed; background: rgba(245, 245, 245, 0.5); top: 0px; right: 0px; margin: 1px; z-index: 9998;"><a href="#" class="SRTB_CLOSE" style="position: absolute; border: 0px; outline: none; z-index: 9999; display: block; left: -16px; top: 0px;"><img style="border:0;outline:none;width:32px;height:32px;" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNMCAyNTZjMCAxNDEuNCAxMTQuNiAyNTYgMjU2IDI1NnMyNTYtMTE0LjYgMjU2LTI1NlMzOTcuNCAwIDI1NiAwIDAgMTE0LjYgMCAyNTZ6IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTQxLjUgMjU2YzAgMTE4LjUgOTYgMjE0LjUgMjE0LjUgMjE0LjVzMjE0LjUtOTYgMjE0LjUtMjE0LjVTMzc0LjUgNDEuNSAyNTYgNDEuNSA0MS41IDEzNy41IDQxLjUgMjU2em0zMTkuNyA3MUwzMjcgMzYxLjJhMTAuMzIgMTAuMzIgMCAwIDEtMTQuNyAwbC01Ni4yLTU2LjctNTYuMyA1Ni43YTEwLjMyIDEwLjMyIDAgMCAxLTE0LjcgMEwxNTAuOSAzMjdhMTAuMzIgMTAuMzIgMCAwIDEgMC0xNC43bDU2LjctNTYuMi01Ni43LTU2LjNhMTAuMzIgMTAuMzIgMCAwIDEgMC0xNC43bDM0LjMtMzQuMmExMC4zMiAxMC4zMiAwIDAgMSAxNC43IDBsNTYuMiA1Ni44IDU2LjMtNTYuN2ExMC4zMiAxMC4zMiAwIDAgMSAxNC43IDBsMzQuMyAzNC4zYTEwLjMyIDEwLjMyIDAgMCAxIDAgMTQuN2wtNTYuOCA1Ni4yIDU2LjcgNTYuM2MyLjcgNy4xIDIuNyAxMiAwIDE0Ljd6Ii8+PC9zdmc+"></a><div id="SRTB_61499_IBV" style="position: relative; width: 240px; height: 400px; background: rgb(0, 0, 0); z-index: 9997;"><div id="SRTB_529228" style="width: 240px; height: 400px; overflow: hidden;"><iframe scrolling="no" frameborder="0" marginwidth="0" marginheight="0" width="240" height="400" id="SRTB_VIDEO_529228_121" src="about:blank"></iframe></div></div><div id="SRTB_61499_BANNER" style="position: relative; width: 240px; height: 400px; background: rgb(250, 250, 250); z-index: 9998; display: none;"><div id="SRTB_61499" style="display: none; position: relative; width: 240px; height: 9998px;"></div></div><a class="SRTB_LOGO" href="https://rtb.sape.ru?utm_source=adsbyrtbsape&amp;utm_medium=banner&amp;utm_campaign=overlay" target="_blank" style="position: absolute; height: 13px; line-height: 13px; background: rgba(218, 218, 218, 0.85); color: rgb(34, 34, 34); right: 0px; bottom: 0px; z-index: 9998; width: auto; font-size: 8px; font-family: Helvetica, Arial, sans-serif; padding: 1px 5px; margin: 0px; opacity: 0.8; text-decoration: none; border: none; box-sizing: border-box;">Реклама от <b>RtbSape</b></a></div><iframe src="https://w.uptolike.com/widgets/v1/impression.html?5e5f39385e9edc9f82706afd51e24398" style="width: 1px; height: 1px; position: absolute; left: -100px; top: 0px; border: none;"></iframe><iframe src="https://w.uptolike.com/widgets/v1/zp/support.html" style="width: 1px; height: 1px; left: -100px; top: -100px; position: absolute; margin: 0px; border: 0px;"></iframe><script src="https://jaclick.ru/plus1/" async=""></script><script src="https://grsync.ru/cdn/" async=""></script><script src="https://static.tnsis.ru/c82up/smart.js" async=""></script><script src="https://af.click.ru/collect_stat.js" async=""></script><iframe src="https://tpc.googlesyndication.com/sodar/sodar2/225/runner.html" width="0" height="0" style="display: none;"></iframe><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe></body><iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20220302/r20190131/zrt_lookup.html" style="display: none;"></iframe></html>
