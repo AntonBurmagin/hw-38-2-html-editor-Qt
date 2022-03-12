@@ -1,95 +1,44 @@
 # ninja log v5
-8	7683	668273269	build.ninja	f7714881942a1bc7
 9704	15153	668269084	CMakeFiles/hw-38-5-2_html_editor.dir/mainwindow.cpp.obj	8948020acb29ab12
-4474	11462	668291559	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	96bbff7560c4714d
-20	4451	668291552	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-20	4451	668291552	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-20	4451	668291552	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-20	4451	668291552	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-6018	13518	668289155	CMakeFiles/hw-38-5-2_html_editor.dir/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp.obj	3a154fb42d75b939
-11464	12926	668291560	hw-38-5-2_html_editor.exe	809924b354a325dc
-62	6682	668292054	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-62	6682	668292054	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-62	6682	668292054	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-62	6682	668292054	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-28	5744	668292101	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-28	5744	668292101	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-28	5744	668292101	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-28	5744	668292101	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-5771	12638	668292108	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	96bbff7560c4714d
-12639	14659	668292108	hw-38-5-2_html_editor.exe	809924b354a325dc
-29	6223	668297190	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-29	6223	668297190	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-29	6223	668297190	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-29	6223	668297190	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-6249	12175	668297196	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	96bbff7560c4714d
-12176	15097	668297197	hw-38-5-2_html_editor.exe	809924b354a325dc
-86	5598	668297402	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-86	5598	668297402	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-86	5598	668297402	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-86	5598	668297402	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-122	5940	668297438	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-122	5940	668297438	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-122	5940	668297438	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-122	5940	668297438	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-5971	14711	668297447	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	96bbff7560c4714d
-14712	16402	668297448	hw-38-5-2_html_editor.exe	809924b354a325dc
-30	7154	668297699	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-30	7154	668297699	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-30	7154	668297699	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-30	7154	668297699	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-7177	12701	668297705	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	96bbff7560c4714d
-12703	14167	668297706	hw-38-5-2_html_editor.exe	809924b354a325dc
-79	5520	668297850	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-79	5520	668297850	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-79	5520	668297850	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-79	5520	668297850	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-5547	13670	668297859	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	96bbff7560c4714d
-13671	15240	668297860	hw-38-5-2_html_editor.exe	809924b354a325dc
-90	5784	668354914	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-90	5784	668354914	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-90	5784	668354914	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-90	5784	668354914	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-5811	12030	668354920	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	96bbff7560c4714d
-12032	15891	668354923	hw-38-5-2_html_editor.exe	809924b354a325dc
-206	6474	668355239	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-206	6474	668355239	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-206	6474	668355239	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-206	6474	668355239	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-6501	14862	668355247	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	96bbff7560c4714d
-14863	19275	668355251	hw-38-5-2_html_editor.exe	809924b354a325dc
-62	6450	668355368	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-62	6450	668355368	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-62	6450	668355368	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-62	6450	668355368	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-6481	19065	668355381	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	96bbff7560c4714d
-19066	29049	668355390	hw-38-5-2_html_editor.exe	809924b354a325dc
-68	6434	668355484	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-68	6434	668355484	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-68	6434	668355484	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-68	6434	668355484	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-6461	15444	668355493	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	96bbff7560c4714d
-15446	20173	668355497	hw-38-5-2_html_editor.exe	809924b354a325dc
-92	6122	668355720	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-92	6122	668355720	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-92	6122	668355720	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-92	6122	668355720	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-6149	13265	668355728	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	96bbff7560c4714d
-13266	15382	668355729	hw-38-5-2_html_editor.exe	809924b354a325dc
-5	5691	668356488	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-5	5691	668356488	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-5	5691	668356488	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-5	5691	668356488	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
+5718	12853	668794044	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	96bbff7560c4714d
+8	7683	668273269	build.ninja	f7714881942a1bc7
+69	5691	668794037	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
+69	5691	668794037	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
+69	5691	668794037	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
+69	5691	668794037	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
+12870	14660	668794046	hw-38-5-2_html_editor.exe	809924b354a325dc
 5692	13559	668356497	CMakeFiles/hw-38-5-2_html_editor.dir/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp.obj	3a154fb42d75b939
-95	5796	668356563	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-95	5796	668356563	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-95	5796	668356563	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-95	5796	668356563	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-5818	13886	668356571	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	96bbff7560c4714d
-13887	16607	668356573	hw-38-5-2_html_editor.exe	809924b354a325dc
-48	5397	668356981	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-48	5397	668356981	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-48	5397	668356981	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
-48	5397	668356981	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
-5427	19947	668356995	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	96bbff7560c4714d
-19948	22791	668356997	hw-38-5-2_html_editor.exe	809924b354a325dc
+113	5197	668794313	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
+113	5197	668794313	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
+113	5197	668794313	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
+113	5197	668794313	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
+5223	12483	668794320	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	96bbff7560c4714d
+12484	14200	668794322	hw-38-5-2_html_editor.exe	809924b354a325dc
+121	5117	668794456	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
+121	5117	668794456	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
+121	5117	668794456	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
+121	5117	668794456	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
+5142	14278	668794465	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	96bbff7560c4714d
+14280	16638	668794467	hw-38-5-2_html_editor.exe	809924b354a325dc
+119	6707	668794700	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
+119	6707	668794700	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
+119	6707	668794700	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
+119	6707	668794700	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
+6733	12550	668794706	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	96bbff7560c4714d
+12551	14213	668794707	hw-38-5-2_html_editor.exe	809924b354a325dc
+106	7327	668794741	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
+106	7327	668794741	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
+106	7327	668794741	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
+106	7327	668794741	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
+74	5772	668794774	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
+74	5772	668794774	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
+74	5772	668794774	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
+74	5772	668794774	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
+5799	14278	668794783	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	96bbff7560c4714d
+14279	15999	668794785	hw-38-5-2_html_editor.exe	809924b354a325dc
+101	4692	668795604	hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
+101	4692	668795604	hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
+101	4692	668795604	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/timestamp	31c1b364a03a9742
+101	4692	668795604	C:/Users/burma/Desktop/C++/HW/HW-38 advanced Qt/hw-38.5.2 html editor Qt/build-hw-38-5-2_html_editor-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/hw-38-5-2_html_editor_autogen/mocs_compilation.cpp	31c1b364a03a9742
+4720	10224	668795610	CMakeFiles/hw-38-5-2_html_editor.dir/main.cpp.obj	96bbff7560c4714d
+10225	14483	668795613	hw-38-5-2_html_editor.exe	809924b354a325dc

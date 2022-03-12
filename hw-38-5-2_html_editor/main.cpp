@@ -41,21 +41,19 @@ int main(int argc, char *argv[])
         file << editor->toPlainText().toStdString();
         file.close();
         if(firstLoad) {
-        view->load(QUrl::fromLocalFile("C:\\Users\\burma\\Desktop\\C++\\HW\\HW-38 advanced Qt\\hw-38.5.2 html editor Qt\\google.html"));
-        firstLoad=false;
+            auto dir = QDir::currentPath();
+            dir += "../../google.html";
+            view->load(QUrl::fromLocalFile(dir));
+            firstLoad=false;
         } else {
             view->reload();
         }
     });
 
-    QDesktopWidget *desc = QApplication::desktop();
-    window.resize(desc->width(), desc->height());
-    window.show();
+    window.showMaximized();
 
     return a.exec();
-
     delete editor;
-    delete desc;
     delete view;
 
 }
